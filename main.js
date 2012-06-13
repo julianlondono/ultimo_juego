@@ -1,9 +1,8 @@
 /*!
  * 
- *   melonJS
- *   http://www.melonjs.org
+ *      
  *		
- *   Step by step game creation tutorial
+ *   
  *
  **/
 
@@ -33,6 +32,7 @@ var g_resources= [
 	 // title screen
 	{name: "title_screen",        type:"image",	src: "data/GUI/title_screen.png"},
 ]; 
+
 
 
 var jsApp	= 
@@ -141,6 +141,7 @@ var PlayScreen = me.ScreenObject.extend(
    }
 
 });
+
 
 
 //bootstrap :)
